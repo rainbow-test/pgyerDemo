@@ -1,0 +1,7 @@
+if: branch =~ ^master$|^release|^development
+language: swift
+os: osx
+osx_image: xcode10.1
+
+script: xcodebuild -project PgyerDemo.xcodeproj -target PgyerDemo -sdk iphonesimulator
+  ONLY_ACTIVE_ARCH=NO
