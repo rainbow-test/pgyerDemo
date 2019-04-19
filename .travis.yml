@@ -1,4 +1,3 @@
-if: branch =~ ^master$|^release|^development
 language: swift
 os: osx
 osx_image: xcode10.1
